@@ -1,0 +1,20 @@
+{
+  "project": {
+    "name": "Climate Change News Aggregator API",
+    "type": "nodejs-express",
+    "description": "A Node.js Express server that scrapes climate-related news from multiple international news sources"
+  },
+  "codeStyle": {
+    "language": "javascript",
+    "moduleSystem": "commonjs",
+    "formatting": {
+      "indentation": "spaces",
+      "indentSize": 4
+    }
+  },
+  "conventions": {
+    "preferAsync": true,
+    "errorHandling": "try-catch with console.error logging",
+    "httpClient": "axios with custom user-agent"
+  }
+}
